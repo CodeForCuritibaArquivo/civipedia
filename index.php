@@ -11,6 +11,10 @@
  *
  * @var bool
  */
+
+
+ini_set("upload_max_filesize", "100M")
+
 define('WP_USE_THEMES', true);
 
 /** Loads the WordPress Environment and Template */
