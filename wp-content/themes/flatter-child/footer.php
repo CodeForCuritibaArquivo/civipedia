@@ -69,19 +69,19 @@
                             $linkedin = esc_url(get_theme_mod('linkedin_textbox'));
 
                             if($facebook){?>
-                                <li><a target="_blank"> href="<?php echo $facebook;?>"><i class="fa fa-facebook"></i></a></li>
+                                <li><a target="_blank" href="<?php echo $facebook;?>"><i class="fa fa-facebook"></i></a></li>
                             <?php }
                             if($twitter){?>
-                                <li><a target="_blank"> href="<?php echo $twitter;?>"><i class="fa fa-twitter"></i></a></li>
+                                <li><a target="_blank" href="<?php echo $twitter;?>"><i class="fa fa-twitter"></i></a></li>
                             <?php }
                             if($googleplus) {?>
-                                <li><a target="_blank"> href="<?php echo $googleplus;?>"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a target="_blank" href="<?php echo $googleplus;?>"><i class="fa fa-google-plus"></i></a></li>
                             <?php }
                             if($youtube){?>
-                                <li><a target="_blank"> href="<?php echo $youtube;?>"><i class="fa fa-youtube-play"></i></a></li>
+                                <li><a target="_blank" href="<?php echo $youtube;?>"><i class="fa fa-youtube-play"></i></a></li>
                             <?php }
                             if($linkedin){?>
-                                <li><a target="_blank"> href="<?php echo $linkedin;?>"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a target="_blank" href="<?php echo $linkedin;?>"><i class="fa fa-linkedin"></i></a></li>
                             <?php }?>
                         </ul>
 
