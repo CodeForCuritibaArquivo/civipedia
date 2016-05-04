@@ -54,9 +54,6 @@
                     </h6>
                 </div>
                 <div class="col-sm-6">
-                    <h6>
-                        
-                    </h6>
                 </div>
 
                 <div class="col-sm-3">
