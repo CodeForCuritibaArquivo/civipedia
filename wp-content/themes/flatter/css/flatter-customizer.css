@@ -1,0 +1,23 @@
+/**
+ * Customizer Custom CSS
+ */
+.flatter-ads {
+	background-color: #27C2AA;
+	text-align: center;
+}
+.flatter-ads .button {
+	background-color: #27C2AA;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    color: #ffffff;
+	margin: 15px 0;
+	transition: all 0.5s ease-in-out 0s;
+	-webkit-transition:all 0.5s ease-in-out 0s;
+	-moz-transition:all 0.5s ease-in-out 0s;
+}
+.flatter-ads .button:hover,
+.flatter-ads .button:focus
+{
+	background-color: #666666 ;
+	color: #ffffff;
+}

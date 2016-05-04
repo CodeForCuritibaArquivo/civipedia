@@ -1,0 +1,209 @@
+/*
+Theme Name: Flatter
+Description: Adds support for languages written in a Right To Left (RTL) direction. It's easy, just a matter of overwriting all the horizontal positioning attributes of your CSS stylesheet in a separate stylesheet file named rtl.css.
+Version: 1.0.4
+Text Domain: flatter
+See http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+a {
+	display: inline-block;
+}
+
+blockquote blockquote {
+	margin-left: 0;
+	margin-right: 24px;
+}
+
+.section-title h3{font-family: Open Sans;}
+.block-title h3{font-family: open sans;}
+.intro .single .block-title{font-family: open sans;}
+.services .single .content .block-title{font-family: open sans;}
+.latest-post .single .content .block-title{font-family: open sans;}
+
+.logo-menu .col-sm-3{float: right;}
+.logo-menu .logo{float: right;}
+.logo-menu .logo .slogon{text-align: left;}
+.navbar-header{float: left;}
+.main-menu{float: left;}
+.navbar-nav > li{float: right;}
+.caret {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px dashed;
+    display: inline-block;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    width: 0;
+}
+.caret.navbar-toggle.sub-arrow {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px dashed;
+    border-bottom: none;
+    display: inline-block;
+    height: 0; position: relative;
+    margin-left: 2px; margin-top: 10px;
+    vertical-align: middle;
+    width: 0;
+}
+.navbar-nav.sm-collapsible .caret::before{
+	display: none;
+}
+.main-menu .dropdown-menu .dropdown-menu{
+	right: 100%;
+	top: 0;
+}
+.caret.navbar-toggle.sub-arrow:hover {
+    background: transparent none repeat scroll 0 0 !important;
+}
+
+@media (max-width: 900px) {  
+  .logo-menu .main-menu .navbar-default .navbar-nav > li > a {padding: 20.5px 8px; } 
+  .logo-menu.sticky-menu .navbar-default .navbar-nav > li > a.has-icon {padding: 10px 8px;}
+}
+
+@media (max-width: 800px){
+	.logo h1{font-size: 28px; padding-top: 4px;}
+}
+@media (max-width: 765px){
+	.main-menu{float: none;	}
+	.navbar-header{float: none;	}
+	.navbar-toggle{float: left;	}
+	.navbar-default .caret.navbar-toggle{float: right;	}
+	.logo h1{font-size: 28px;}
+	.navbar-default .navbar-toggle{margin-top: 20px;}
+	.navbar-nav > li{float: none;}
+	.logo-menu .main-menu .navbar-default .navbar-nav > li > a i {
+	    float: left; padding-top: 5px;}
+	.logo-menu .main-menu .navbar-default .navbar-nav > li > a{padding: 8px 8px;}
+}
+.owl-carousel .owl-item{float: right;}
+.single-page .content {
+    text-align: right;
+}
+.bc .post-categories{padding-right: 0px;}
+
+.single-page .comment{text-align: right;}
+.comments-title{text-align: right;}
+.comment-list{padding-right: 0px;}
+.comment-author.vcard{float: right;}
+.comment-metadata{float: left;}
+.fn, .fn a, .says, time{float: left;}
+#reply-title{text-align: right;}
+.comment-notes{padding: 15px;}
+
+.alignleft {display: inline; float: right; margin-left: 1.5em; margin-right: 0px;}
+.alignright {display: inline; float: left; margin-right: 1.5em; margin-left: 0px;}
+
+.single-page .comment-form .submit-button{margin-right: 20px; text-align: right;}
+
+.single-page .social-media li a:hover i:first-child {
+	transform: translate(-5px, 0px) !important; }
+.single-page .social-media li a:hover i:last-child {
+	transform: translate(-20px, 0px)!important; }
+.single-page .social-media li a i {
+	transition: all 0.4s ease-in-out; }
+.single-page .social-media li a i:first-child {
+	transform: translate(20px, 0px) !important; }
+.single-page .social-media li a i:last-child {
+	transform: translate(5px, 0px)!important; }
+
+
+aside.sidebar .single .tagcloud a::before{padding-left: 3px;}
+aside.sidebar .single ul li a::before{padding-left: 3px;}
+aside.sidebar .single ul {padding-left: 20px; padding-right: 0px;}
+aside.sidebar .single .search .form-control{height: 40px;}
+
+footer {
+    background: #222 none repeat scroll 0 0;
+    padding: 20px 0 0;
+}
+footer .single p {
+    color: #aaa;
+}
+footer .single .single-title {
+    color: #27c2aa;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+footer ul{padding-left: 20px; padding-right: 0px;}
+footer .single li a {
+    color: #aaa;
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+}
+footer .single li a:hover {
+    color: #27c2aa;
+}
+
+footer .copyright {
+    background: #111 none repeat scroll 0 0;
+    margin-top: 20px;
+    padding: 15px 0;
+}
+footer .copyright h6 {
+    color: #aaa; float: right;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+footer .copyright .social-media {
+    margin: 0; float: left;
+    padding: 0;
+}
+footer .copyright .social-media li a {
+    background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+    color: #27c2aa;
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    width: 34px;
+}
+footer .copyright .social-media li a:hover {
+    background: #27c2aa none repeat scroll 0 0;
+    color: #fff;
+}
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    float: right;
+    margin: 0 0 3.8% 3.8%;
+    padding: 0;
+    position: relative;
+    width: 22.05%;
+}
+.woocommerce ul.products li.last, 
+.woocommerce-page ul.products li.last {
+    margin-left: 0;
+    margin-right: 0;
+}
+#tab-description h2{font-size: 26px;}
+.woocommerce #reviews #comments ol.commentlist{padding: 0 10px;}
+.woocommerce #reviews #comments h2{font-size: 24px; padding: 0 10px;}
+#review_form .comment-form-author {
+    float: right !important;
+    width: 100%;
+}
+#review_form input{float: left;}
+.woocommerce table.shop_table{margin:0 0 24px;}
+.upsells.products h2{font-size: 26px;}
+.related.products > h2{font-size: 26px;}
+
+.woocommerce .woocommerce-error .button, 
+.woocommerce .woocommerce-info .button, 
+.woocommerce .woocommerce-message .button{float: left;}
+
+.woocommerce table.shop_table{text-align: right;}
+.woocommerce table.shop_table th{text-align: right;}
+.woocommerce-checkout #payment ul.payment_methods li{text-align: right;}
+.woocommerce form.checkout_coupon, 
+.woocommerce form.login, 
+.woocommerce form.register{text-align: right;}

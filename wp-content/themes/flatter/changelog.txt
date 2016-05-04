@@ -1,0 +1,67 @@
+Changelog
+
+Tested up to: 4.5
+
+Version 1.0.0
+i)   	Intial version Release
+
+Version 1.0.1
+i)   	Fixes to CSS
+ii)	 	Included RTL ready mode in customizer theme option
+iii)	Removed unnecessary files
+
+Version 1.0.2
+i) 		Removed Social Sharing function and integrate it with plugin repository.
+
+Version 1.0.3
+i)		Corrections as per WP Standard 
+ii) 	Replaced Minified CSS and JS with Unminified CSS and JS
+
+Version 1.0.4
+i)		Corrections as per WP Standard 
+ii) 	Removed jquery
+
+Version 1.0.5
+i)		Removed third party plugin requirements
+ii) 	Sanitization of missing output
+iii)   	Renamed template-home.php to front-page.php
+
+Version 1.0.6
+i)		Minor CSS Changes.
+
+
+Version 1.0.7
+i)		Remove string from theme language and made theme translation ready.
+ii) 	Sanitization of missing output
+iii)   	Enqueing Google fonts with proper method.
+
+Version 1.0.8
+i)		No of Post in Frontpage different section fixed to 4 from the 5
+ii) 	Inner pages header image is active only when selected , default image is removed 
+iii)   	front-page.php changed to template-home.php & default page to index.php
+iv)		unused layout folder is removed 
+v) 		WordPress rtl function is used and Removed from the custom rtl function from the customizer
+vi)     Default right sidebar in all except in page template
+vii)    Sections folder is removed and header.php and footer.php merged with header.php and footer.php of root theme folder
+viii) 	Plugin Activation code is removed 
+ix) 	Removed unneccessary commented code
+x) 		Background image support for the content area
+xi)     Added Number of Post Selection in Slider Section
+xii) 	Language file updated as per other files changes
+
+Version 1.0.9
+i)  	Image Licsense were added in readme.txt
+ii) 	Screenshot Change
+iii) 	Minor Correction were done
+
+Version 1.1.0
+i) 		No of slider is fixed in template-home.php
+ii)		Theme URI Fixed in style.css 
+iii)	Minor CSS change
+iv)		Title of Each Section is changebale
+v)		Enable/Disable of Each section of template-home.php
+vi)   js/flatter-customizer.js,css/flatter-customizer.css is added 
+
+Versioin 1.1.1
+
+i)  no of post in different section fixed to 4 from 3

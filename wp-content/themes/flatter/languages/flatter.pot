@@ -1,0 +1,549 @@
+# Copyright (C) 2016 Ocean Web Themes
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Flatter 1.1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/flatter\n"
+"POT-Creation-Date: 2016-02-08 21:51:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: oceanwebthemes <info@oceanwebthemes.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:17
+msgid "404 Not Found."
+msgstr ""
+
+
+#: 404.php:46
+msgid "Oops, this page could not be found!"
+msgstr ""
+
+#: 404.php:47
+msgid "It looks like nothing was found at this location. Maybe you can search ?"
+msgstr ""
+
+
+#. translators: %s: post title
+#: comments.php:33
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:37
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:53
+msgid "Comment navigation."
+msgstr ""
+
+#: comments.php:56
+msgid "Older Comments."
+msgstr ""
+
+#: comments.php:57
+msgid "Newer Comments."
+msgstr ""
+
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: index.php:22
+msgid "Welcome to"
+msgstr ""
+
+#: search.php:19
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:4
+msgctxt "placeholder"
+msgid "Search this blog"
+msgstr ""
+
+#: searchform.php:4
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: template-blog.php:55 template-parts/content-single.php:30 template-parts/content-search.php:22 template-parts/content.php:21
+msgid "- Posted by"
+msgstr ""
+
+#: template-blog.php:58 template-home.php:64 template-home:194 template-home:334 template-home:405 template-parts/content-search.php:26 template-parts/content.php:25
+msgid "Read More"
+msgstr ""
+
+#: template-home.php:62
+msgid "Contact Us"
+msgstr ""
+
+#: template-home.php:157
+msgid "Our Services"
+msgstr ""
+
+#: template-home.php:226
+msgid "Testimonials"
+msgstr ""
+
+#: template-home.php:365
+msgid "Latest Post"
+msgstr ""
+
+#: template-home.php:358
+msgid "Our Works"
+msgstr ""
+
+#: header.php: 45
+msgid "Toggle navigation"
+msgstr ""
+
+#: footer.php: 52
+msgid "&copy; 2015. FLATTER. All Rights Reserved."
+msgstr ""
+
+#: footer.php: 58
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php: 58
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. translators: 1: flatter, 2:http://oceanwebthemes.com
+#: comments.php:53
+msgctxt "THEME: FLATTER BY OCEAN WEB THEMES"
+msgid "Theme: %1$s by %2$s."
+msgid_plural "Theme: %1$s by %2$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/content-page.php:34
+msgid "Page"
+msgstr ""
+
+#: template-parts/content-single.php:30
+msgid "- POSTED BY"
+msgstr ""
+
+#: template-parts/content-single.php:42
+msgid "Page"
+msgstr ""
+
+#: template-parts/content-single.php:65
+msgid"Edit %s"
+msgstr""
+
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:62 template-parts/content-single.php:70 inc/template-tags.php:71
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:19
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: functions.php:60
+msgid "Primary Menu"
+msgstr ""
+
+
+
+#: functions.php:226
+msgid 'Sticky'
+msgstr ""
+
+#: functions.php:232 functions.php:238 inc/template-tags.php 50 inc/template-tags.php 56
+msgid ","
+msgstr ""
+
+#: functions.php:247
+msgid "View all posts by %s"
+msgstr ""
+
+#: functions.php:323
+msgid "Reply"
+msgstr ""
+
+#: functions.php:405
+msgid "Category Left Sidebar"
+msgstr ""
+
+#: functions.php:407
+msgid "Drag your widgets for Left Sidebar here"
+msgstr ""
+
+#: functions.php:395
+msgid "Category Right Sidebar"
+msgstr ""
+
+#: functions.php:397
+msgid "Drag your widgets for Right Sidebar here"
+msgstr ""
+
+#: functions.php:415
+msgid "Shop Sidebar Left"
+msgstr ""
+
+#: functions.php:417
+msgid "Drag your Woo-commerce Porducts widgets here"
+msgstr ""
+
+#: functions.php:425
+msgid "Footer Block"
+msgstr ""
+
+#: functions.php:427
+msgid "Footer Block supports 4 widgets here"
+msgstr ""
+
+#: functions.php:435
+msgid "Newsletter Block"
+msgstr ""
+
+#: functions.php:437
+msgid "Install https://wordpress.org/plugins/newsletter/ to use this section"
+msgstr ""
+
+#: functions.php:445
+msgid "Contact Block"
+msgstr ""
+
+#: functions.php:447
+msgid "Paste your Google Map Location iFrame code here"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:500
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/class.php:43
+msgid "Select"
+msgstr ""
+
+#: inc/extras.php:65
+msgid "Submit"
+msgstr ""
+
+#: inc/extras.php:80
+msgid "Developed By:"
+msgstr ""
+
+#: inc/extras.php:81
+msgid "Oceanweb Themes"
+msgstr ""
+
+#: inc/extras.php:86
+msgid "FlatterPlus Preview:"
+msgstr ""
+
+#: inc/extras.php:87
+msgid "View Demo"
+msgstr ""
+
+#: inc/extras.php:92
+msgid "About FlatterPlus:"
+msgstr ""
+
+#: inc/extras.php:93
+msgid"CLick Here"
+msgstr""
+
+#: inc/template-tags.php:28
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:33
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: 1: number of comments
+#: inc/template-tags.php:52
+msgctxt "Categories list"
+msgid "Posted in %1$s"
+msgid_plural "Posted in %1$s"
+msgstr[0] ""
+
+#. translators: 1: number of comments
+#: inc/template-tags.php:58
+msgctxt "Tags list"
+msgid "Tagged %1$s"
+msgid_plural "Tagged %1$s"
+msgstr[0] ""
+
+#: inc/template-tags.php:64
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/customizer.php:29
+msgid "Flatter Theme Option"
+msgstr ""
+
+#: inc/customizer.php:30
+msgid "Welcome to Flatter Theme Option."
+msgstr ""
+
+#: inc/customizer.php:39
+msgid "Theme Logo"
+msgstr ""
+
+#: inc/customizer.php:41
+msgid "Upload image of 200px width and 52px height for logo"
+msgstr ""
+
+#: inc/customizer.php:51
+msgid "Edit Theme Logo"
+msgstr ""
+
+#: inc/customizer.php:62
+msgid "Slider Categories"
+msgstr ""
+
+#: inc/customizer.php:64
+msgid "Select the Slide Category for Homepage."
+msgstr ""
+
+#: inc/customizer.php:75 inc/customizer.php:135 inc/customizer.php:193 inc/customizer.php:251 inc/customizer.php:320 inc/customizer.php:379
+msgid "Choose category"
+msgstr ""
+
+#:inc/customizer.php:88
+msgid "Select Number of Post"
+msgstr""
+
+#: inc/customizer.php:109
+msgid "Contact Us Link"
+msgstr ""
+
+#: inc/customizer.php:122
+msgid "Features Categories"
+msgstr ""
+
+#: inc/customizer.php:124
+msgid "Select the Features Category for Homepage."
+msgstr ""
+
+#: inc/customizer.php:147
+msgid "Enable/Disable Featured Content"
+msgstr ""
+
+#: inc/customizer.php:161
+msgid "Services Categories"
+msgstr ""
+
+#: inc/customizer.php:163
+msgid "Select the Services Category for Homepage"
+msgstr ""
+
+#: inc/customizer.php:179
+msgid "Our Services Title"
+msgstr ""
+
+#: inc/customizer.php:205
+msgid "Enable/Disable Services Section"
+msgstr ""
+
+#: inc/customizer.php:219
+msgid "Testimonials Categories"
+msgstr ""
+
+#: inc/customizer.php:221
+msgid "Select the Testimonials Category for Homepage."
+msgstr ""
+
+#: inc/customizer.php:237
+msgid "Testimonials Title"
+msgstr ""
+
+#: inc/customizer.php:264
+msgid "Edit Testimonial Background"
+msgstr ""
+
+#: inc/customizer.php:275
+msgid "Enable/Disable Testimonials Section"
+msgstr ""
+
+#: inc/customizer.php:288
+msgid "Latest Post Categories"
+msgstr ""
+
+#: inc/customizer.php:290
+msgid "Select the Latest Post Category for Homepage."
+msgstr ""
+
+#: inc/customizer.php:306
+msgid "Latest Post Title"
+msgstr ""
+
+#: inc/customizer.php:333
+msgid "Enable/Disable Latest Post Section."
+msgstr ""
+
+#: inc/customizer.php:347
+msgid "Our Works Categories"
+msgstr ""
+
+#: inc/customizer.php:349
+msgid "Select the Our Works Category for Homepage."
+msgstr ""
+
+#: inc/customizer.php:365
+msgid "Our Works Title"
+msgstr ""
+
+#: inc/customizer.php:391
+msgid "Enable/Disable Our Works Section."
+msgstr ""
+
+#: inc/customizer.php:406
+msgid "Newsletter Section"
+msgstr ""
+
+#: inc/customizer.php:408
+msgid "Write Some Words for Newsletter Section in Homepage.install Newsletter plugin to use this section"
+msgstr ""
+
+#: inc/customizer.php:424
+msgid "Newsletter Textbox"
+msgstr ""
+
+#: inc/customizer.php:439
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer.php:441
+msgid "Customize your Footer section."
+msgstr ""
+
+#: inc/customizer.php:463
+msgid "Copyright text"
+msgstr ""
+
+#: inc/customizer.php:482
+msgid "Show social icons"
+msgstr ""
+
+#: inc/customizer.php:506
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer.php:525
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer.php:544
+msgid "Googleplus"
+msgstr ""
+
+#: inc/customizer.php:563
+msgid "YouTube"
+msgstr ""
+
+#: inc/customizer.php:582
+msgid "Linkedin"
+msgstr ""
+
+
+#: inc/customizer.php:595
+msgid "Flatter Sidebar Layout"
+msgstr ""
+
+#: inc/customizer.php:596
+msgid "Theme Sidebar Layout"
+msgstr ""
+
+#: inc/customizer.php:600
+msgid "Category Sidebar"
+msgstr ""
+
+#: inc/customizer.php:612
+msgid "Sidebar position"
+msgstr ""
+
+#: inc/customizer.php:630
+msgid "Single Post Sidebar"
+msgstr ""
+
+#: inc/customizer.php:643
+msgid "Single Post Sidebar position"
+msgstr ""
+
+#: inc/customizer.php:661
+msgid "Single Page Sidebar"
+msgstr ""
+
+#: inc/customizer.php:674
+msgid "Single Page Sidebar position"
+msgstr ""
+
+#: inc/customizer.php:691
+msgid "Search Page Sidebar"
+msgstr ""
+
+#: inc/customizer.php:704
+msgid "Search Page Sidebar position"
+msgstr ""
+
+#: inc/customizer.php:746
+msgid "Page Not Found Sidebar"
+msgstr ""
+
+#: inc/customizer.php:759
+msgid "Page Not Found Sidebar position"
+msgstr ""
+
+#. Theme Name of the theme
+msgid "Flatter"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://oceanwebthemes.com/webthemes/flatter-free-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Flatter is a multipurpose Free WordPress Theme."
+"It consists of Featured Slider, Featured Posts, Services Posts, Testimonial Posts, Latest Posts, your Works Posts, Newsletter Subscription Widget, Social Icons and four widgetized Footer blocks in Homepage layout."
+"You can choose multiple sidebar option on blog, single post, single page, search page, page not found page as Left Sidebar, Right Sidebar and Both Sidebar as per requirements. These all options can be optimized from the Theme Options of Customize."
+Fullwidth Page, Fullwidth Blog with Masonry layout and Woocommerce Ready within the theme."
+"What are you waiting for? Lets start downloading this amazing and beautiful Free Multipurpose WordPress Theme right away."
+"Read the theme documentation for detail usage of theme attached within this theme as readme.txt file."
+"or view the demo of Flatter Plus http://www.oceanwebthemes.com/pro/flatterplus/"
+
+msgstr ""
+
+#. Author of the Theme
+msgid "oceanwebthemes"
+msgstr ""
