@@ -50,10 +50,10 @@ get_header(); ?>
 							    	</div>
 								  	<?php endif; ?> 
 								    <h3 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-								    <h6 class="post-info"><?php echo esc_attr( get_the_date('M d Y') );?><?php _e('- Posted by','flatter');?> <?php echo esc_attr( get_the_author_meta('display_name') );?></h6>
+								    <h6 class="post-info"><?php echo esc_attr( get_the_date('M d Y') );?><?php _e('- Publicado por','flatter');?> <?php echo esc_attr( get_the_author_meta('display_name') );?></h6>
 
 								    <p><?php the_excerpt(); ?></p>
-								    <a href="<?php the_permalink(); ?>" title="" class="btn read-more"><?php _e('Read More', 'flatter');?></a>
+								    <a href="<?php the_permalink(); ?>" title="" class="btn read-more"><?php _e('Leia Mais', 'flatter');?></a>
 								    
 								    <div class="tag-comment">
 								        <span class="pull-left"><i class="fa fa-tags"></i> <?php the_tags(); ?></span>
